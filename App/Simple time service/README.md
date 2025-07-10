@@ -16,7 +16,6 @@ Before you begin, ensure you have the following installed:
 Python 3.9+ (for local development/testing)
 
 Docker
-
 A DockerHub account (if you plan to publish the image)
 
 Getting Started
