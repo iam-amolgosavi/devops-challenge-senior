@@ -26,8 +26,10 @@ The application is containerized using Docker and runs on **Gunicorn**.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/simple-time-service.git
-cd simple-time-service
+ git clone https://github.com/iam-amolgosavi/devops-challenge-senior.git
+ cd devops-challenge-senior/
+ cd App/
+  cd 'Simple time service'/
 ```
 
 ### 2. Build Docker Image
@@ -46,6 +48,7 @@ docker run -d -p 5000:5000 -e PORT=5000 service-app1:latest
 
 Open your browser or use `curl`:
 ```
+EC2 public IpAdress:5000
 http://localhost:5000/
 ```
 
@@ -88,10 +91,6 @@ export AWS_SECRET_ACCESS_KEY=your-secret-key
 export AWS_DEFAULT_REGION=ap-south-1
 ```
 
-**Do NOT commit AWS credentials into your repository.**
-
----
-
 ## 📝 License
 
 This project is licensed under the MIT License.
@@ -101,5 +100,4 @@ This project is licensed under the MIT License.
 ## 🔍 Author
 
 - **Amol Gosavi**
-- GitHub: [your-github-url]
-- LinkedIn: [your-linkedin-url]
+- GitHub: [iam-amolgosavi]
