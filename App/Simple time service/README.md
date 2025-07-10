@@ -70,6 +70,10 @@ Sample Response:
 
 ---
 
+## Pull Image from Dockerhub 
+```
+ docker pull amol519/service-app1
+```
 ## ☁️ Running in AWS / Kubernetes / EKS
 
 When deploying behind an AWS Load Balancer, the app automatically extracts the correct IP from the `X-Forwarded-For` header.
@@ -90,9 +94,7 @@ export AWS_ACCESS_KEY_ID=your-access-key
 export AWS_SECRET_ACCESS_KEY=your-secret-key
 export AWS_DEFAULT_REGION=ap-south-1
 ```
-## Pull Dockerhub image
 
-### Image name: amol519/service-app1
 
 ## 📝 License
 
