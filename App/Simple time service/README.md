@@ -91,7 +91,9 @@ export AWS_SECRET_ACCESS_KEY=your-secret-key
 export AWS_DEFAULT_REGION=ap-south-1
 ```
 ## Pull Dockerhub image
+
 ### Image name: amol519/service-app1
+
 ## 📝 License
 
 This project is licensed under the MIT License.
