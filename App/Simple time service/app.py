@@ -20,7 +20,7 @@ def get_time_and_ip():
     # Get client IP: prioritize X-Forwarded-For if available (for proxy/load balancer scenarios)
     # Otherwise, use request.remote_addr
     client_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
-    
+   
     # If X-Forwarded-For contains multiple IPs (e.g., "client, proxy1, proxy2"), take the first one
     if client_ip and ',' in client_ip:
         client_ip = client_ip.split(',')[0].strip()
@@ -43,4 +43,3 @@ if __name__ == '__main__':
     # host='0.0.0.0' makes the server accessible from any IP address, not just localhost
     print(f"SimpleTimeService running on port {PORT}")
     app.run(host='0.0.0.0', port=PORT)
-
